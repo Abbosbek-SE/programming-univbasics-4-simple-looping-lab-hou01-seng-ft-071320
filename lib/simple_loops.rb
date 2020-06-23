@@ -17,3 +17,11 @@ def output_array(array)
     i += 1
   end
 end
+
+def return_string_array(array)
+  string = ""
+  i = 0 
+  while array[i] do
+    
+  end
+end
