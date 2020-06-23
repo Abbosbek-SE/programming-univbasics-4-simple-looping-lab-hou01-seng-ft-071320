@@ -4,8 +4,8 @@ def loop_message_five_times(string)
   end
 end
 
-def loop_message_n_times(string)
-  while i < n do 
+def loop_message_n_times(string, number)
+  while i < number do 
     puts string
     i += 1
   end
