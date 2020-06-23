@@ -22,6 +22,8 @@ def return_string_array(array)
   string = ""
   i = 0 
   while array[i] do
-    
+    if array[i]
+      
+    end
   end
 end
