@@ -23,7 +23,7 @@ def return_string_array(array)
   i = 0 
   while array[i] do
     if array[i]
-      new_array = array[i].to_s 
+      new_array.push(array[i].to_s) 
     end
     i+=1
   end
