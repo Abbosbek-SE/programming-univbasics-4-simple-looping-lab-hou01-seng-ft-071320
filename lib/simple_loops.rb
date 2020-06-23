@@ -19,11 +19,13 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  string = ""
+  new_array = []
   i = 0 
   while array[i] do
     if array[i]
-      
+      new_array = array[i].to_s 
     end
+    i+=1
   end
+  return new_array
 end
